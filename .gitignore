@@ -1,0 +1,30 @@
+# Build results
+bin/
+obj/
+out/
+[Bb]uild/
+[Ll]og/
+
+# VS files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Resharper / Rider
+.idea/
+*.DotSettings.user
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+
+# Others
+.env
+*.db
+*.mdf
+*.ldf
