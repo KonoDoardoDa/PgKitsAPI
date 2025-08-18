@@ -6,5 +6,5 @@ using System.Threading.Tasks;
 
 namespace PgKits.Application.DTOs
 {
-    public record ItemTotalDTO(int ItemId, string ItemName, string? SupplierName, int TotalQuantity);
+    public record KitItemDetailDTO(int ItemId, string ItemName, string? SupplierName, int QuantityPerKit, int TotalForRequestedQuantity);
 }

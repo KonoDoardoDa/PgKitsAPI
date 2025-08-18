@@ -1,4 +1,5 @@
 ﻿using PgKits.Application.Interfaces;
+using PgKits.Application.DTOs;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,7 +19,7 @@ namespace PgKits.Application.Services
             _itemRepository = itemRepository;
         }
 
-        public async Task<OrderDTO> GenerateOrderAsync(List<OrderRequestDTO> orderRequestDTO)
+        public async Task<OrderResultDTO> GenerateOrderAsync(IEnumerable<KitRequestDTO> kitRequestDTO)
         {
             return null;
         }

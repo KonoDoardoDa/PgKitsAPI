@@ -6,7 +6,5 @@ using System.Threading.Tasks;
 
 namespace PgKits.Application.DTOs
 {
-    public class OrderRequestDTO
-    {
-    }
+    public record KitRequestDTO(int KitId, int Quantity);
 }
